@@ -1,5 +1,4 @@
-# Code Smells with AI - Educational Repository
-
+# Code Smells with AI
 ## 📚 Overview
 
 This is project demonstrating **Code Smells** and their refactoring solutions in **Java Spring Boot**.

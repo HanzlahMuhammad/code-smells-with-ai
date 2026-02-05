@@ -2,7 +2,7 @@
 
 ## ✅ Project Completion Status
 
-This educational repository has been successfully created to teach code smells and refactoring in Java SpringBoot. All core objectives have been met.
+This repository has been successfully created to teach code smells and refactoring in Java SpringBoot. All core objectives have been met.
 
 ## 📦 What's Included
 
@@ -40,14 +40,14 @@ This educational repository has been successfully created to teach code smells a
 ### 3. Comprehensive Documentation
 
 #### Main Documentation Files
-- ✅ **README.md** (9,000+ words)
+- ✅ **README.md**
   - Complete project overview
   - All 5 categories documented
   - Getting started guide
   - How to use for students and instructors
   - Examples and key principles
 
-- ✅ **STUDENT_GUIDE.md** (11,000+ words)
+- ✅ **STUDENT_GUIDE.md**
   - Week-by-week study plan
   - Step-by-step learning guide
   - Self-assessment questions
@@ -55,7 +55,7 @@ This educational repository has been successfully created to teach code smells a
   - Deep dive examples
   - Study tips and resources
 
-- ✅ **INSTRUCTOR_GUIDE.md** (13,000+ words)
+- ✅ **INSTRUCTOR_GUIDE.md**
   - Complete course outline
   - Teaching strategies
   - Interactive activities
@@ -77,165 +77,7 @@ This educational repository has been successfully created to teach code smells a
   - Key improvements
   - Teaching points
 
-### 4. Educational Features
-
-#### For Students
-- Clear bad/good code comparisons
-- Progressive difficulty
-- Real-world scenarios
-- Spring Boot examples
-- Practice exercises in guides
-
-#### For Instructors
-- Ready-to-use teaching materials
-- Lecture suggestions
-- Lab exercises with rubrics
-- Assessment strategies
-- Discussion prompts
-
-## 📊 Project Statistics
-
-- **Total Java Files**: 69
-- **Lines of Code**: ~5,300+
-- **Documentation**: 33,000+ words
-- **Code Smells Demonstrated**: 13
-- **Categories Covered**: 5 of 5 (Bloaters, OOP Abusers, Dispensables, Couplers, Change Preventers)
-- **Package Structures**: Complete hierarchy with bad/good examples
-
-## 🏗️ Project Structure
-
-```
-code-smells-with-ai/
-├── README.md                          # Main documentation
-├── STUDENT_GUIDE.md                   # Comprehensive student guide
-├── INSTRUCTOR_GUIDE.md                # Teaching guide
-├── pom.xml                           # Maven configuration
-├── src/main/
-│   ├── java/com/codesmells/
-│   │   ├── CodeSmellsApplication.java
-│   │   ├── bloaters/
-│   │   │   ├── package-info.java
-│   │   │   ├── longmethod/
-│   │   │   │   ├── bad/OrderProcessorService.java
-│   │   │   │   └── good/OrderProcessorService.java
-│   │   │   ├── largeclass/
-│   │   │   │   ├── bad/UserManager.java
-│   │   │   │   └── good/
-│   │   │   │       ├── User.java
-│   │   │   │       ├── UserRepository.java
-│   │   │   │       ├── AuthenticationService.java
-│   │   │   │       ├── AuthorizationService.java
-│   │   │   │       ├── NotificationService.java
-│   │   │   │       └── UserManagementService.java
-│   │   │   ├── primitiveobsession/
-│   │   │   │   ├── bad/CustomerService.java
-│   │   │   │   └── good/
-│   │   │   │       ├── Email.java
-│   │   │   │       ├── PhoneNumber.java
-│   │   │   │       ├── Money.java
-│   │   │   │       └── CustomerService.java
-│   │   │   ├── longparameterlist/
-│   │   │   │   ├── bad/OrderService.java
-│   │   │   │   └── good/
-│   │   │   │       ├── Address.java
-│   │   │   │       ├── CustomerInfo.java
-│   │   │   │       └── OrderService.java
-│   │   │   └── dataclumps/
-│   │   │       ├── bad/ReportService.java
-│   │   │       └── good/
-│   │   │           ├── ReportParameters.java
-│   │   │           └── ReportService.java
-│   │   ├── oopabusers/
-│   │   │   ├── package-info.java
-│   │   │   └── switchstatements/
-│   │   │       ├── bad/PaymentService.java
-│   │   │       └── good/
-│   │   │           ├── PaymentMethod.java
-│   │   │           ├── CreditCardPayment.java
-│   │   │           ├── PayPalPayment.java
-│   │   │           └── PaymentService.java
-│   │   ├── dispensables/
-│   │   │   ├── package-info.java
-│   │   │   ├── duplicatecode/
-│   │   │   │   ├── bad/UserService.java
-│   │   │   │   └── good/UserService.java
-│   │   │   └── dataclass/
-│   │   │       ├── bad/
-│   │   │       │   ├── BankAccount.java
-│   │   │       │   └── BankingService.java
-│   │   │       └── good/
-│   │   │           ├── BankAccount.java
-│   │   │           └── BankingService.java
-│   │   └── couplers/
-│   │       ├── package-info.java
-│   │       ├── featureenvy/
-│   │       │   ├── bad/
-│   │       │   │   ├── Product.java
-│   │       │   │   └── OrderService.java
-│   │       │   └── good/
-│   │       │       ├── Product.java
-│   │       │       └── OrderService.java
-│   │       └── messagechain/
-│   │           ├── bad/
-│   │           │   ├── Customer.java
-│   │           │   └── ShippingService.java
-│   │           └── good/
-│   │               ├── Customer.java
-│   │               └── ShippingService.java
-│   └── resources/
-│       └── application.properties
-└── .gitignore
-```
-
-## 🎯 Key Features
-
-### 1. Educational Design
-- **Progressive Learning**: Examples start simple, build complexity
-- **Side-by-side Comparison**: Easy to compare bad vs good code
-- **Real-world Context**: SpringBoot, realistic business scenarios
-- **Detailed Explanations**: Every example thoroughly documented
-
-### 2. SOLID Principles Applied
-- **Single Responsibility**: Demonstrated in Large Class refactoring
-- **Open/Closed**: Demonstrated in Switch Statements refactoring
-- **Liskov Substitution**: Implicit in polymorphism examples
-- **Interface Segregation**: Demonstrated in extracted interfaces
-- **Dependency Inversion**: Shown through Spring DI
-
-### 3. Refactoring Techniques Demonstrated
-- Extract Method
-- Extract Class
-- Replace Primitive with Object
-- Introduce Parameter Object
-- Replace Conditional with Polymorphism
-- Move Method
-- Hide Delegate
-
-## 🚀 How to Use
-
-### For Students
-1. Clone the repository
-2. Start with README.md for overview
-3. Follow STUDENT_GUIDE.md week-by-week plan
-4. Study bad examples first, then good examples
-5. Practice with exercises provided
-6. Build and run: `mvn spring-boot:run`
-
-### For Instructors
-1. Review INSTRUCTOR_GUIDE.md for teaching strategies
-2. Use examples in lectures (they're ready to present)
-3. Assign lab exercises from the guide
-4. Use rubrics for grading
-5. Adapt materials to your course structure
-
-### For Self-Learners
-1. Follow the week-by-week study plan
-2. Type out examples yourself
-3. Experiment by modifying code
-4. Create your own examples
-5. Share learnings with peers
-
-## 📈 Learning Outcomes
+ ## 📈 Learning Outcomes
 
 Students who complete this material will be able to:
 
@@ -249,7 +91,6 @@ Students who complete this material will be able to:
 
 ## 🎓 Perfect For
 
-- **6th Semester CS Students**: Ideal difficulty level
 - **Software Engineering Courses**: Practical code quality teaching
 - **Code Quality Workshops**: Ready-to-use materials
 - **Self-Paced Learning**: Comprehensive guides included
@@ -369,9 +210,3 @@ This project successfully delivers a comprehensive, professional-quality educati
 The combination of practical SpringBoot examples, detailed explanations, and comprehensive teaching guides makes this a valuable resource for computer science education.
 
 ---
-
-**Repository**: [maliknabeel/code-smells-with-ai](https://github.com/maliknabeel/code-smells-with-ai)
-
-**Status**: ✅ Complete and Ready for Use
-
-**Version**: 1.0.0
